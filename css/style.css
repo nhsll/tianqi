@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#head {
+    width: 100vw;
+    height: 40vh;
+    background: url(../img/kobe.jpeg);
+    background-size: 100% auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#head #search {
+    width: 1.4rem;
+    height: 0.4rem;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: calc(50% - 0.7rem);
+    bottom: 0;
+    border-radius: 0.05rem;
+    font-size: 0.14rem;
+    line-height: 0.4rem;
+    padding-left: 0.05rem;
+}
+
+.main {
+    width: 100vw;
+    height: 60vh;
+    background: skyblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.main h1 {
+    width: 100vw;
+    font-size: 0.14rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    color: black;
+}
+
+.main h3 {
+    width: 100vw;
+    font-size: 0.14rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+}
